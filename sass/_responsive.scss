@@ -67,8 +67,8 @@
 @media only screen and (max-width: 768px) {
   .splash_title {
     h1 {
-    font: 2rem/2rem $font-titles, sans-serif;
-    padding: 10rem 1rem 0 2rem;
+      font: 2rem/2rem $font-titles, sans-serif;
+      padding: 10rem 1rem 0 2rem;
     }
     h2 {
       font: 1.5rem/1.8rem $font-base, sans-serif;
@@ -76,27 +76,24 @@
       max-width: 75%;
     }
   }
-
   .nav_logo {
     font-size: 1.7rem;
   }
-
   .recent_work {
-  margin: 0 auto;
-  padding: 5rem 1rem 1rem;
-  h1 {
-    font-size: 1.7rem;
+    margin: 0 auto;
+    padding: 5rem 1rem 1rem;
+    h1 {
+      font-size: 1.7rem;
+    }
+    h2 {
+      font-size: 1.2rem;
+      padding-bottom: .5rem;
+    }
+    p {
+      font-size: .7rem;
+      line-height: 1.1rem;
+    }
   }
-  h2 {
-    font-size: 1.2rem;
-    padding-bottom: .5rem;
-  }
-  p {
-    font-size: .7rem;
-    line-height: 1.1rem;
-  }
-}
-
   .article_post {
     padding: 1.5rem;
     h1 {
@@ -109,7 +106,6 @@
       line-height: 1.2rem;
     }
   }
-
   footer p {
     font-size: .8rem;
     padding-top: 1rem;
@@ -117,7 +113,6 @@
       text-decoration: underline;
     }
   }
-
   .col {
     margin: 1% 0 3.3% 1.6%;
   }
@@ -132,13 +127,11 @@
     margin-left: 0;
   }
 }
-
-
 @media only screen and (max-width: 480px) {
   .splash_title {
     h1 {
-    font: 1.8rem/2rem $font-titles, sans-serif;
-    padding: 7rem 1.5rem 0 1.5rem;
+      font: 1.8rem/2rem $font-titles, sans-serif;
+      padding: 7rem 1.5rem 0 1.5rem;
     }
     h2 {
       font: 1.1rem/1.4rem $font-base, sans-serif;
@@ -146,63 +139,60 @@
       max-width: 80%;
     }
   }
-
   .display_none {
     display: inline;
     margin-left: 40%;
   }
-
   .text_shadow {
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   }
   .recent_work {
-  margin: 0 auto;
-  padding: 5rem 1rem 1rem;
-  h1 {
-    font-size: 1.7rem;
-  }
-  h2 {
-    font-size: 1.2rem;
-    padding-bottom: .5rem;
-  }
-  p {
-    font-size: .7rem;
-    line-height: 1.1rem;
-  }
-}
-
-.contact_post {
-  .shell {
-    width: 90%;
     margin: 0 auto;
+    padding: 5rem 1rem 1rem;
+    h1 {
+      font-size: 1.7rem;
+    }
+    h2 {
+      font-size: 1.2rem;
+      padding-bottom: .5rem;
+    }
+    p {
+      font-size: .7rem;
+      line-height: 1.1rem;
+    }
   }
-  span {
-    padding-right: .25rem;
+  .contact_post {
+    .shell {
+      width: 90%;
+      margin: 0 auto;
+    }
+    span {
+      padding-right: .25rem;
+    }
+    h1 {
+      font-size: 1.2rem;
+      padding: 1.5rem 1rem 0;
+    }
+    li {
+      padding-bottom: 1rem;
+      font-size: .8rem;
+    }
+    ul {
+      padding-bottom: 2rem;
+    }
+    a {
+      text-decoration: underline;
+    }
+    .extra_large {
+      font-size: 2rem;
+      color: $second-color;
+    }
+    .small {
+      font-size: 1.3rem;
+      color: $second-color;
+      padding-left: 1.5rem;
+    }
   }
-  h1 {
-    font-size: 1.2rem;
-    padding: 1.5rem 1rem 0;
-  }
-  li {
-    padding-bottom: 1rem;
-    font-size: .8rem;
-  }
-  ul {
-    padding-bottom: 2rem;
-  }
-  a {
-    text-decoration: underline;
-  }
-  .extra_large {
-  font-size: 2rem;
-  color: $second-color;
-  }
-  .small {
-  font-size: 1.3rem;
-  color: $second-color;
-  padding-left: 1.5rem;
-  }
-}
   footer p {
     font-size: .8rem;
     padding-top: 1rem;
@@ -210,15 +200,13 @@
       text-decoration: underline;
     }
   }
-
   .nav_logo {
     font-size: 1.1rem;
     margin-top: -1.4rem;
   }
   .large {
-  font-size: 1.4rem;
+    font-size: 1.4rem;
   }
-
   .col {
     margin: 2% 0 4% 0;
   }
