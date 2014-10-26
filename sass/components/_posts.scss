@@ -1,0 +1,54 @@
+.article_post {
+  color: $first_color;
+  padding: 2rem;
+  h1 {
+    font-size: 2.1rem;
+    line-height: 2.4rem;
+    padding-bottom: 1rem;
+  }
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+}
+section .article_post {
+  margin: 0 auto;
+  max-width: 54rem;
+  padding-top: 8rem;
+}
+.shell {
+  background-color: white;
+  border-radius: 0.1rem;
+  width: 100%;
+  height: auto;
+}
+
+.contact_post {
+  color: $first_color;
+  .shell {
+    width: 50%;
+    margin: 0 auto;
+  }
+  span {
+    padding-right: 1rem;
+  }
+  h1 {
+    font-size: 1.4rem;
+    padding: 2rem 2rem 0;
+  }
+  li {
+    padding-bottom: .5rem;
+  }
+  ul {
+    padding-bottom: 3rem;
+  }
+  .extra_large {
+  font-size: 2.3rem;
+  color: $second-color;
+  }
+  .small {
+  font-size: 1.3rem;
+  color: $second-color;
+  padding-left:3rem;
+  }
+}

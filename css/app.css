@@ -1,0 +1,540 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?cfoeqr");
+  src: url("../fonts/icomoon.eot?#iefixcfoeqr") format("embedded-opentype"), url("../fonts/icomoon.woff?cfoeqr") format("woff"), url("../fonts/icomoon.ttf?cfoeqr") format("truetype"), url("../fonts/icomoon.svg?cfoeqr#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-mobile:before {
+  content: "\e600"; }
+
+.icon-mail:before {
+  content: "\e601"; }
+
+.icon-vcard:before {
+  content: "\e605"; }
+
+.icon-location:before {
+  content: "\e603"; }
+
+.icon-quote:before {
+  content: "\e602"; }
+
+.icon-graduation:before {
+  content: "\e60b"; }
+
+.icon-newspaper:before {
+  content: "\e60c"; }
+
+.icon-pictures:before {
+  content: "\e604"; }
+
+.icon-arrow-left:before {
+  content: "\e607"; }
+
+.icon-arrow-down:before {
+  content: "\e606"; }
+
+.icon-arrow-right:before {
+  content: "\e608"; }
+
+.icon-github:before {
+  content: "\e610"; }
+
+.icon-github2:before {
+  content: "\e611"; }
+
+.icon-twitter:before {
+  content: "\e612"; }
+
+.icon-twitter2:before {
+  content: "\e613"; }
+
+.icon-tumblr:before {
+  content: "\e614"; }
+
+.icon-tumblr2:before {
+  content: "\e615"; }
+
+.icon-linkedin:before {
+  content: "\e616"; }
+
+.icon-linkedin2:before {
+  content: "\e617"; }
+
+html, body {
+  font-family: "Vollkorn", serif; }
+  html p, body p {
+    padding-bottom: 1.5rem;
+    font-size: 1.2rem;
+    color: #204B58;
+    line-height: 2rem; }
+
+h1 {
+  font: 4rem/4rem "Unica One", sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 1rem 0 0 0; }
+
+a {
+  text-decoration: none;
+  color: #2DABAB; }
+  a:hover {
+    color: #F5930B;
+    transition: all .30s ease; }
+
+button {
+  font-size: 1rem;
+  color: #FFF;
+  background-color: #2DABAB;
+  padding: 0.5rem;
+  border: 0 none;
+  border-radius: 0.1rem;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.1);
+  margin-left: 5%;
+  margin-bottom: 5%; }
+  button:hover {
+    cursor: pointer;
+    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.1); }
+  button:focus {
+    outline: none; }
+
+.large {
+  font-size: 2rem;
+  color: #F5930B; }
+  .large:hover, .large:focus {
+    color: #FF5D05;
+    outline: none; }
+
+.extra_large {
+  font-size: 2.3rem;
+  color: white;
+  outline: none; }
+
+.text_shadow {
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4); }
+
+button a {
+  color: #FFF; }
+
+.recent_work {
+  margin: 0 auto;
+  padding: 8rem 1rem 2rem; }
+  .recent_work h1 {
+    font-size: 2rem;
+    color: #204B58; }
+  .recent_work h2 {
+    font-size: 1.3rem;
+    color: #F5930B;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: .5rem;
+    text-transform: uppercase;
+    font-family: "Unica One"; }
+  .recent_work p {
+    margin: 0 auto;
+    font-size: .8rem;
+    line-height: 1.2rem;
+    width: 90%;
+    color: #204B58; }
+  .recent_work img {
+    width: 100%;
+    padding-bottom: 5%;
+    margin: 0 auto; }
+    .recent_work img:focus, .recent_work img:hover {
+      transition: all .30s ease;
+      opacity: .8;
+      cursor: pointer;
+      z-index: 5; }
+
+.full-image {
+  width: 100%;
+  height: auto; }
+
+footer {
+  background-color: white; }
+  footer p {
+    font-size: 1rem;
+    text-align: center;
+    color: #204B58;
+    padding-top: 1rem; }
+
+.splash_bkg {
+  background: url(../img/triangles.png) no-repeat;
+  background-size: cover;
+  height: auto;
+  background-attachment: fixed;
+  background-position: center center; }
+
+.splash_container {
+  height: 29rem; }
+
+.splash_title h1 {
+  font: 2.5rem/2rem "Unica One", sans-serif;
+  padding: 10rem 1rem 0 3rem;
+  color: #FFF;
+  font-weight: bolder; }
+.splash_title h2 {
+  font: 1.5rem/2rem "Vollkorn", sans-serif;
+  padding: 1rem 1rem 3rem 3rem;
+  color: #FFF;
+  width: 45rem; }
+
+.body_light {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: auto; }
+
+.display_none {
+  display: none; }
+
+#navbar.navbar_fixed {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  padding-top: 1rem;
+  width: 100%;
+  height: 3.75rem;
+  box-shadow: 0 1px 1px #DCDCDC;
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.97); }
+
+#navbar.navbar_absolute {
+  position: absolute;
+  top: 460px;
+  padding-top: 1rem;
+  width: 100%;
+  height: 3.75rem;
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.06); }
+
+.navbar_container {
+  margin: .85rem; }
+
+.navbar_inline li {
+  display: inline;
+  margin-left: .5rem;
+  padding: .5rem 0;
+  text-decoration: none; }
+
+.navbar_inline {
+  text-align: right; }
+
+.nav_logo {
+  text-align: left;
+  font-size: 2rem;
+  color: #F5930B;
+  font-family: "Unica One";
+  margin: -2rem 0 0 0;
+  text-transform: uppercase;
+  letter-spacing: -2px; }
+
+.social_nav {
+  text-align: center;
+  margin-top: 1rem; }
+
+.article_post {
+  color: #204B58;
+  padding: 2rem; }
+  .article_post h1 {
+    font-size: 2.1rem;
+    line-height: 2.4rem;
+    padding-bottom: 1rem; }
+  .article_post p {
+    font-size: 1.2rem;
+    line-height: 1.5rem; }
+
+section .article_post {
+  margin: 0 auto;
+  max-width: 54rem;
+  padding-top: 8rem; }
+
+.shell {
+  background-color: white;
+  border-radius: 0.1rem;
+  width: 100%;
+  height: auto; }
+
+.contact_post {
+  color: #204B58; }
+  .contact_post .shell {
+    width: 50%;
+    margin: 0 auto; }
+  .contact_post span {
+    padding-right: 1rem; }
+  .contact_post h1 {
+    font-size: 1.4rem;
+    padding: 2rem 2rem 0; }
+  .contact_post li {
+    padding-bottom: .5rem; }
+  .contact_post ul {
+    padding-bottom: 3rem; }
+  .contact_post .extra_large {
+    font-size: 2.3rem;
+    color: #2DABAB; }
+  .contact_post .small {
+    font-size: 1.3rem;
+    color: #2DABAB;
+    padding-left: 3rem; }
+
+/*  ----Responsive Grid System Custom Configure by Jay Diran Sweet, using the 2, 3, 4 column grid set up----  */
+/*  ----SECTIONS----  */
+.section {
+  clear: both;
+  padding: 0;
+  margin: 0; }
+
+/*  ----COLUMN SETUP----  */
+.col {
+  display: block;
+  float: left;
+  margin: 1% 0 3.3% 1.6%; }
+
+.col:first-child {
+  margin-left: 0; }
+
+/*  ----GROUPING----  */
+.group:before, .group:after {
+  content: "";
+  display: table; }
+
+.group:after {
+  clear: both; }
+
+.group {
+  zoom: 1;
+  /* For IE 6/7 */ }
+
+/*  ----GRID OF TWO----  */
+.span_2_of_2 {
+  width: 100%; }
+
+.span_1_of_2 {
+  width: 49.2%; }
+
+/*  ----GRID OF THREE----  */
+.span_3_of_3 {
+  width: 100%; }
+
+.span_2_of_3 {
+  width: 66.1%; }
+
+.span_1_of_3 {
+  width: 32.2%; }
+
+/*  ----GRID OF FOUR----  */
+.span_4_of_4 {
+  width: 100%; }
+
+.span_3_of_4 {
+  width: 74.6%; }
+
+.span_2_of_4 {
+  width: 49.2%; }
+
+.span_1_of_4 {
+  width: 23.8%; }
+
+/*  ----GO FULL WIDTH AT LESS THAN 480 PIXELS---- */
+@media only screen and (max-width: 768px) {
+  .splash_title h1 {
+    font: 2rem/2rem "Unica One", sans-serif;
+    padding: 10rem 1rem 0 2rem; }
+  .splash_title h2 {
+    font: 1.5rem/1.8rem "Vollkorn", sans-serif;
+    padding: 1rem 1rem 3rem 2rem;
+    max-width: 75%; }
+
+  .nav_logo {
+    font-size: 1.7rem; }
+
+  .recent_work {
+    margin: 0 auto;
+    padding: 5rem 1rem 1rem; }
+    .recent_work h1 {
+      font-size: 1.7rem; }
+    .recent_work h2 {
+      font-size: 1.2rem;
+      padding-bottom: .5rem; }
+    .recent_work p {
+      font-size: .7rem;
+      line-height: 1.1rem; }
+
+  .article_post {
+    padding: 1.5rem; }
+    .article_post h1 {
+      font-size: 1.8rem;
+      line-height: 2rem;
+      padding-bottom: 1rem; }
+    .article_post p {
+      font-size: 1rem;
+      line-height: 1.2rem; }
+
+  footer p {
+    font-size: .8rem;
+    padding-top: 1rem; }
+    footer p a {
+      text-decoration: underline; }
+
+  .col {
+    margin: 1% 0 3.3% 1.6%; }
+
+  /*  ----GRID OF FOUR INTO GRID OF TWO----  */
+  .span_1_of_2 {
+    width: 49%;
+    margin: 1% 0 1% 2%; }
+
+  .span_1_of_2:nth-child(2n+1) {
+    clear: both;
+    margin-left: 0; } }
+@media only screen and (max-width: 480px) {
+  .splash_title h1 {
+    font: 1.8rem/2rem "Unica One", sans-serif;
+    padding: 7rem 1.5rem 0 1.5rem; }
+  .splash_title h2 {
+    font: 1.1rem/1.4rem "Vollkorn", sans-serif;
+    padding: 1rem 1.5rem 3rem 1.5rem;
+    max-width: 80%; }
+
+  .display_none {
+    display: inline;
+    margin-left: 40%; }
+
+  .text_shadow {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); }
+
+  .recent_work {
+    margin: 0 auto;
+    padding: 5rem 1rem 1rem; }
+    .recent_work h1 {
+      font-size: 1.7rem; }
+    .recent_work h2 {
+      font-size: 1.2rem;
+      padding-bottom: .5rem; }
+    .recent_work p {
+      font-size: .7rem;
+      line-height: 1.1rem; }
+
+  .contact_post .shell {
+    width: 90%;
+    margin: 0 auto; }
+  .contact_post span {
+    padding-right: .25rem; }
+  .contact_post h1 {
+    font-size: 1.2rem;
+    padding: 1.5rem 1rem 0; }
+  .contact_post li {
+    padding-bottom: 1rem;
+    font-size: .8rem; }
+  .contact_post ul {
+    padding-bottom: 2rem; }
+  .contact_post a {
+    text-decoration: underline; }
+  .contact_post .extra_large {
+    font-size: 2rem;
+    color: #2DABAB; }
+  .contact_post .small {
+    font-size: 1.3rem;
+    color: #2DABAB;
+    padding-left: 1.5rem; }
+
+  footer p {
+    font-size: .8rem;
+    padding-top: 1rem; }
+    footer p a {
+      text-decoration: underline; }
+
+  .nav_logo {
+    font-size: 1.1rem;
+    margin-top: -1.4rem; }
+
+  .large {
+    font-size: 1.4rem; }
+
+  .col {
+    margin: 2% 0 4% 0; }
+
+  /*  ----GRID OF TWO----  */
+  .span_2_of_2 {
+    width: 100%; }
+
+  .span_1_of_2 {
+    width: 100%; }
+
+  /*  ----GRID OF THREE----  */
+  .span_3_of_3 {
+    width: 100%; }
+
+  .span_2_of_3 {
+    width: 100%; }
+
+  .span_1_of_3 {
+    width: 100%; }
+
+  /*  ----GRID OF FOUR----  */
+  .span_4_of_4 {
+    width: 100%; }
+
+  .span_3_of_4 {
+    width: 100%; }
+
+  .span_2_of_4 {
+    width: 100%; }
+
+  .span_1_of_4 {
+    width: 100%; } }
+
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,33 @@
+.splash_bkg {
+  background: url(../img/triangles.png) no-repeat;
+  background-size: cover;
+  height: auto;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.splash_container {
+  height: 29rem;
+}
+.splash_title {
+  h1 {
+  font: 2.5rem/2rem $font-titles, sans-serif;
+  padding: 10rem 1rem 0 3rem;
+  color: #FFF;
+  font-weight: bolder;
+  }
+  h2 {
+    font: 1.5rem/2rem $font-base, sans-serif;
+    padding: 1rem 1rem 3rem 3rem;
+    color: #FFF;
+    width: 45rem;
+  }
+}
+.body_light {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: auto;
+}
+
+// hide the arrow down icon that allows scrolling of // the page on desktop
+.display_none {
+  display: none;
+}

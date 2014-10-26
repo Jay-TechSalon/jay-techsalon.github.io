@@ -1,0 +1,24 @@
+<p>
+  In this sprint we set out to create a MEAN (Mongo DB, Express, Angular, Node) app with a backend JavaScript team. This app teaches concepts of a binary tree structure with a demo, an interactive component built with the JavaScript D3 library.
+</p>
+
+
+<p>
+  Jumping in Ember I decided to create a project with a 4-5 hour range. Basic idea came from the setInterval expression, a timer function built in to Ember. That sparked an idea to make a basic "take a break" timer that would last for 3 minutes.
+</p>
+
+
+.ex-large {
+  font-size: 5rem;
+  color: $third_color;
+  &:hover {
+    color: $fourth_color;
+    transition: all .30s ease;
+  }
+}
+
+In this sprint we set out to create the UX &amp; UI for an Angular app with a backend JavaScript team. This app utilizes D3 library.<br>
+
+First look at Ember, MVP was to create a simple break app for myself in 4-5 hours, which was accomplished. Now time to take a break.<br>
+
+Working with the file API and finding something a bit different in its use case, using the CSS3 background-clip selector. One day MVP.<br>

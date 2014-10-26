@@ -1,0 +1,47 @@
+//js selected selectors
+#navbar.navbar_fixed {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  padding-top: 1rem;
+  width: 100%;
+  height: 3.75rem;
+  box-shadow: 0 1px 1px #DCDCDC;
+  background-color: rgb( 255, 255, 255);
+  background-color: rgba( 255, 255, 255, 0.97);
+}
+#navbar.navbar_absolute {
+  position: absolute;
+  top: 460px;
+  padding-top: 1rem;
+  width: 100%;
+  height: 3.75rem;
+  background-color: rgb( 255, 255, 255);
+  background-color: rgba( 255, 255, 255, 0.06);
+}
+//main navbar for the site
+.navbar_container {
+  margin: .85rem;
+}
+.navbar_inline li {
+  display: inline;
+  margin-left: .5rem;
+  padding: .5rem 0;
+  text-decoration: none;
+}
+.navbar_inline {
+  text-align: right;
+}
+.nav_logo {
+  text-align: left;
+  font-size: 2rem;
+  color: $third-color;
+  font-family: $font-titles;
+  margin: -2rem 0 0 0;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+}
+.social_nav {
+  text-align: center;
+  margin-top: 1rem;
+}
