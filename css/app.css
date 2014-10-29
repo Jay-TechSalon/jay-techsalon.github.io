@@ -239,6 +239,9 @@ footer {
     font-size: 1.2rem;
     line-height: 1.5rem; }
 
+.article_post button {
+  margin-left: 5%; }
+
 section .article_extra {
   margin: 0 auto;
   max-width: 54rem; }
@@ -282,25 +285,27 @@ section .article_post {
     color: #2DABAB;
     padding-left: 3rem; }
 
+.article_post h2, .recent_work h2 {
+  font-size: 1.5rem;
+  color: #F5930B;
+  width: 90%;
+  margin: 0 auto;
+  padding: .5rem 0;
+  text-transform: uppercase;
+  font-family: "Unica One"; }
+
+.article_post p, .recent_work p {
+  margin: 0 auto;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  width: 90%;
+  color: #204B58; }
+
 .recent_work {
   margin: 0 auto;
   padding: 8rem 1rem 2rem; }
   .recent_work h1 {
     font-size: 2rem;
-    color: #204B58; }
-  .recent_work h2 {
-    font-size: 1.5rem;
-    color: #F5930B;
-    width: 90%;
-    margin: 0 auto;
-    padding: .5rem 0;
-    text-transform: uppercase;
-    font-family: "Unica One"; }
-  .recent_work p {
-    margin: 0 auto;
-    font-size: 1rem;
-    line-height: 1.3rem;
-    width: 90%;
     color: #204B58; }
   .recent_work img {
     width: 100%;

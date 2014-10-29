@@ -13,6 +13,11 @@
 }
 .article_post {
   @extend %article;
+  @extend %orange-titles;
+  @extend %description-text;
+  button {
+    margin-left: 5%;
+  }
 }
 section .article_extra {
   margin: 0 auto;
