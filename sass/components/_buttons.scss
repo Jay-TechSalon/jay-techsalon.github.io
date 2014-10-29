@@ -1,15 +1,15 @@
 button {
   font-size: 1rem;
-  color: #FFF;
+  color: #DCDCDC;
   background-color: $second_color;
   padding: 0.5rem;
   border: 0 none;
   border-radius: 0.1rem;
   box-shadow: inset 0 -4px 0 rgba(0, 0, 0, .1);
-  margin-left: 5%;
   margin-bottom: 5%;
   &:hover {
     cursor: pointer;
+    color: #FFF;
     box-shadow: inset 0 -2px 0 rgba(0, 0, 0, .1);
   }
   &:focus {

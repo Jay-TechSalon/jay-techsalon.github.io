@@ -239,6 +239,10 @@ footer {
     font-size: 1.2rem;
     line-height: 1.5rem; }
 
+section .article_extra {
+  margin: 0 auto;
+  max-width: 54rem; }
+
 section .article_post {
   margin: 0 auto;
   max-width: 54rem;
@@ -249,6 +253,12 @@ section .article_post {
   border-radius: 0.1rem;
   width: 100%;
   height: 100%; }
+
+.shell_set-size {
+  background-color: white;
+  border-radius: 0.1rem;
+  width: 100%;
+  height: auto; }
 
 .contact_post {
   color: #204B58; }
@@ -279,22 +289,22 @@ section .article_post {
     font-size: 2rem;
     color: #204B58; }
   .recent_work h2 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: #F5930B;
     width: 90%;
     margin: 0 auto;
-    padding-bottom: .5rem;
+    padding: .5rem 0;
     text-transform: uppercase;
     font-family: "Unica One"; }
   .recent_work p {
     margin: 0 auto;
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 1.3rem;
     width: 90%;
     color: #204B58; }
   .recent_work img {
     width: 100%;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
     margin: 0 auto; }
     .recent_work img:focus, .recent_work img:hover {
       transition: all .30s ease;
@@ -304,23 +314,19 @@ section .article_post {
 
 .recent_description {
   display: block; }
-  .recent_description p {
-    font-size: 1.1rem;
-    width: 90%;
-    margin: 0 auto; }
 
 button {
   font-size: 1rem;
-  color: #FFF;
+  color: #DCDCDC;
   background-color: #2DABAB;
   padding: 0.5rem;
   border: 0 none;
   border-radius: 0.1rem;
   box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.1);
-  margin-left: 5%;
   margin-bottom: 5%; }
   button:hover {
     cursor: pointer;
+    color: #FFF;
     box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.1); }
   button:focus {
     outline: none; }
@@ -408,7 +414,7 @@ button a {
       font-size: 1.2rem;
       padding-bottom: .5rem; }
     .recent_work p {
-      font-size: .7rem;
+      font-size: .9rem;
       line-height: 1.1rem; }
 
   .article_post {
@@ -463,8 +469,11 @@ button a {
       font-size: 1.2rem;
       padding-bottom: .5rem; }
     .recent_work p {
-      font-size: .7rem;
+      font-size: .8rem;
       line-height: 1.1rem; }
+
+  .recent_description {
+    display: none; }
 
   .contact_post .shell {
     width: 90%;

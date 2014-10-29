@@ -6,24 +6,24 @@
     color: $first-color;
   }
   h2 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: $third-color;
     width: 90%;
     margin: 0 auto;
-    padding-bottom: .5rem;
+    padding: .5rem 0;
     text-transform: uppercase;
     font-family: $font-titles;
   }
   p {
     margin: 0 auto;
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 1.3rem;
     width: 90%;
     color: $first-color;
   }
   img {
     width: 100%;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
     margin: 0 auto;
     &:focus, &:hover {
       transition: all .30s ease;
@@ -35,12 +35,4 @@
 }
 .recent_description {
   display: block;
-  p {
-    font-size: 1.1rem;
-    width: 90%;
-    margin: 0 auto;
-  }
 }
-
-
-

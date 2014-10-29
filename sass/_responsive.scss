@@ -90,7 +90,7 @@
       padding-bottom: .5rem;
     }
     p {
-      font-size: .7rem;
+      font-size: .9rem;
       line-height: 1.1rem;
     }
   }
@@ -117,7 +117,7 @@
     margin: 1% 0 3.3% 1.6%;
   }
   /*  ----GRID OF FOUR INTO GRID OF TWO----  */
-
+  
   .span_1_of_2 {
     width: 49%;
     margin: 1% 0 1% 2%;
@@ -157,9 +157,12 @@
       padding-bottom: .5rem;
     }
     p {
-      font-size: .7rem;
+      font-size: .8rem;
       line-height: 1.1rem;
     }
+  }
+  .recent_description {
+    display: none;
   }
   .contact_post {
     .shell {
@@ -211,7 +214,7 @@
     margin: 2% 0 4% 0;
   }
   /*  ----GRID OF TWO----  */
-
+  
   .span_2_of_2 {
     width: 100%;
   }
@@ -219,7 +222,7 @@
     width: 100%;
   }
   /*  ----GRID OF THREE----  */
-
+  
   .span_3_of_3 {
     width: 100%;
   }
@@ -230,7 +233,7 @@
     width: 100%;
   }
   /*  ----GRID OF FOUR----  */
-
+  
   .span_4_of_4 {
     width: 100%;
   }
