@@ -1,4 +1,4 @@
-.article_post {
+%article {
   color: $first_color;
   padding: 2rem;
   h1 {
@@ -11,6 +11,18 @@
     line-height: 1.5rem;
   }
 }
+.article_post {
+  @extend %article;
+  @extend %orange-titles;
+  @extend %description-text;
+  button {
+    margin-left: 5%;
+  }
+}
+section .article_extra {
+  margin: 0 auto;
+  max-width: 54rem;
+}
 section .article_post {
   margin: 0 auto;
   max-width: 54rem;
@@ -20,9 +32,14 @@ section .article_post {
   background-color: white;
   border-radius: 0.1rem;
   width: 100%;
+  height: 100%;
+}
+.shell_set-size {
+  background-color: white;
+  border-radius: 0.1rem;
+  width: 100%;
   height: auto;
 }
-
 .contact_post {
   color: $first_color;
   .shell {
@@ -43,12 +60,12 @@ section .article_post {
     padding-bottom: 3rem;
   }
   .extra_large {
-  font-size: 2.3rem;
-  color: $second-color;
+    font-size: 2.3rem;
+    color: $second-color;
   }
   .small {
-  font-size: 1.3rem;
-  color: $second-color;
-  padding-left:3rem;
+    font-size: 1.3rem;
+    color: $second-color;
+    padding-left: 3rem;
   }
 }

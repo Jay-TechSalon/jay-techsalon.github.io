@@ -1,16 +1,9 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url(http://fonts.googleapis.com/css?family=Unica+One|Vollkorn);
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -19,8 +12,7 @@ time, mark, audio, video {
   vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block; }
 
 body {
@@ -32,14 +24,37 @@ ol, ul {
 blockquote, q {
   quotes: none; }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before, blockquote:after, q:before, q:after {
   content: '';
   content: none; }
 
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+html, body {
+  font-family: "Vollkorn", serif; }
+  html p, body p {
+    padding-bottom: 1.5rem;
+    font-size: 1.2rem;
+    color: #204B58;
+    line-height: 2rem; }
+
+h1 {
+  font: 4rem/4rem "Unica One", sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 1rem 0 0 0; }
+
+a {
+  text-decoration: none;
+  color: #2DABAB; }
+  a:hover {
+    color: #F5930B;
+    transition: all .30s ease; }
+
+.text_shadow {
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4); }
 
 @font-face {
   font-family: 'icomoon';
@@ -116,42 +131,12 @@ table {
 .icon-linkedin2:before {
   content: "\e617"; }
 
-html, body {
-  font-family: "Vollkorn", serif; }
-  html p, body p {
-    padding-bottom: 1.5rem;
-    font-size: 1.2rem;
-    color: #204B58;
-    line-height: 2rem; }
+.full-image {
+  width: 100%;
+  height: auto; }
 
-h1 {
-  font: 4rem/4rem "Unica One", sans-serif;
-  text-transform: uppercase;
-  font-weight: bolder;
-  padding: 1rem 0 0 0; }
-
-a {
-  text-decoration: none;
-  color: #2DABAB; }
-  a:hover {
-    color: #F5930B;
-    transition: all .30s ease; }
-
-button {
-  font-size: 1rem;
-  color: #FFF;
-  background-color: #2DABAB;
-  padding: 0.5rem;
-  border: 0 none;
-  border-radius: 0.1rem;
-  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.1);
-  margin-left: 5%;
-  margin-bottom: 5%; }
-  button:hover {
-    cursor: pointer;
-    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.1); }
-  button:focus {
-    outline: none; }
+.display_none {
+  display: none; }
 
 .large {
   font-size: 2rem;
@@ -164,46 +149,6 @@ button {
   font-size: 2.3rem;
   color: white;
   outline: none; }
-
-.text_shadow {
-  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4); }
-
-button a {
-  color: #FFF; }
-
-.recent_work {
-  margin: 0 auto;
-  padding: 8rem 1rem 2rem; }
-  .recent_work h1 {
-    font-size: 2rem;
-    color: #204B58; }
-  .recent_work h2 {
-    font-size: 1.3rem;
-    color: #F5930B;
-    width: 90%;
-    margin: 0 auto;
-    padding-bottom: .5rem;
-    text-transform: uppercase;
-    font-family: "Unica One"; }
-  .recent_work p {
-    margin: 0 auto;
-    font-size: .8rem;
-    line-height: 1.2rem;
-    width: 90%;
-    color: #204B58; }
-  .recent_work img {
-    width: 100%;
-    padding-bottom: 5%;
-    margin: 0 auto; }
-    .recent_work img:focus, .recent_work img:hover {
-      transition: all .30s ease;
-      opacity: .8;
-      cursor: pointer;
-      z-index: 5; }
-
-.full-image {
-  width: 100%;
-  height: auto; }
 
 footer {
   background-color: white; }
@@ -237,9 +182,6 @@ footer {
 .body_light {
   background-color: rgba(255, 255, 255, 0.8);
   height: auto; }
-
-.display_none {
-  display: none; }
 
 #navbar.navbar_fixed {
   position: fixed;
@@ -297,12 +239,25 @@ footer {
     font-size: 1.2rem;
     line-height: 1.5rem; }
 
+.article_post button {
+  margin-left: 5%; }
+
+section .article_extra {
+  margin: 0 auto;
+  max-width: 54rem; }
+
 section .article_post {
   margin: 0 auto;
   max-width: 54rem;
   padding-top: 8rem; }
 
 .shell {
+  background-color: white;
+  border-radius: 0.1rem;
+  width: 100%;
+  height: 100%; }
+
+.shell_set-size {
   background-color: white;
   border-radius: 0.1rem;
   width: 100%;
@@ -329,6 +284,60 @@ section .article_post {
     font-size: 1.3rem;
     color: #2DABAB;
     padding-left: 3rem; }
+
+.article_post h2, .recent_work h2 {
+  font-size: 1.5rem;
+  color: #F5930B;
+  width: 90%;
+  margin: 0 auto;
+  padding: .5rem 0;
+  text-transform: uppercase;
+  font-family: "Unica One"; }
+
+.article_post p, .recent_work p {
+  margin: 0 auto;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  width: 90%;
+  color: #204B58; }
+
+.recent_work {
+  margin: 0 auto;
+  padding: 8rem 1rem 2rem; }
+  .recent_work h1 {
+    font-size: 2rem;
+    color: #204B58; }
+  .recent_work img {
+    width: 100%;
+    padding-bottom: 2%;
+    margin: 0 auto; }
+    .recent_work img:focus, .recent_work img:hover {
+      transition: all .30s ease;
+      opacity: .8;
+      cursor: pointer;
+      z-index: 5; }
+
+.recent_description {
+  display: block; }
+
+button {
+  font-size: 1rem;
+  color: #DCDCDC;
+  background-color: #2DABAB;
+  padding: 0.5rem;
+  border: 0 none;
+  border-radius: 0.1rem;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 5%; }
+  button:hover {
+    cursor: pointer;
+    color: #FFF;
+    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.1); }
+  button:focus {
+    outline: none; }
+
+button a {
+  color: #FFF; }
 
 /*  ----Responsive Grid System Custom Configure by Jay Diran Sweet, using the 2, 3, 4 column grid set up----  */
 /*  ----SECTIONS----  */
@@ -410,7 +419,7 @@ section .article_post {
       font-size: 1.2rem;
       padding-bottom: .5rem; }
     .recent_work p {
-      font-size: .7rem;
+      font-size: .9rem;
       line-height: 1.1rem; }
 
   .article_post {
@@ -465,8 +474,11 @@ section .article_post {
       font-size: 1.2rem;
       padding-bottom: .5rem; }
     .recent_work p {
-      font-size: .7rem;
+      font-size: .8rem;
       line-height: 1.1rem; }
+
+  .recent_description {
+    display: none; }
 
   .contact_post .shell {
     width: 90%;

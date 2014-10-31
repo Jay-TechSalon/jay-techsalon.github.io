@@ -1,0 +1,44 @@
+%orange-titles {
+  h2 {
+    font-size: 1.5rem;
+    color: $third-color;
+    width: 90%;
+    margin: 0 auto;
+    padding: .5rem 0;
+    text-transform: uppercase;
+    font-family: $font-titles;
+  }
+}
+%description-text {
+  p {
+    margin: 0 auto;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    width: 90%;
+    color: $first-color;
+  }
+}
+.recent_work {
+  margin: 0 auto;
+  padding: 8rem 1rem 2rem;
+  h1 {
+    font-size: 2rem;
+    color: $first-color;
+  }
+  @extend %orange-titles;
+  @extend %description-text;
+  img {
+    width: 100%;
+    padding-bottom: 2%;
+    margin: 0 auto;
+    &:focus, &:hover {
+      transition: all .30s ease;
+      opacity: .8;
+      cursor: pointer;
+      z-index: 5;
+    }
+  }
+}
+.recent_description {
+  display: block;
+}
