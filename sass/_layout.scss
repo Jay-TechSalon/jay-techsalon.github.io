@@ -1,4 +1,7 @@
 // Layout for the site
+.outer_container{
+  width: 90%;
+}
 .full-image {
   width: 100%;
   height: auto;
@@ -19,6 +22,9 @@
   font-size: 2.3rem;
   color: white;
   outline: none;
+}
+a .bottom_next {
+  margin: 1rem auto;
 }
 footer {
   background-color: white;

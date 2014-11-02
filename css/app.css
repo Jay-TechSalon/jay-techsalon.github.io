@@ -131,6 +131,9 @@ a {
 .icon-linkedin2:before {
   content: "\e617"; }
 
+.outer_container {
+  width: 90%; }
+
 .full-image {
   width: 100%;
   height: auto; }
@@ -149,6 +152,9 @@ a {
   font-size: 2.3rem;
   color: white;
   outline: none; }
+
+a .bottom_next {
+  margin: 1rem auto; }
 
 footer {
   background-color: white; }
@@ -170,14 +176,15 @@ footer {
 
 .splash_title h1 {
   font: 2.5rem/2rem "Unica One", sans-serif;
-  padding: 10rem 1rem 0 3rem;
+  padding: 10rem 1rem 0 5%;
   color: #FFF;
   font-weight: bolder; }
 .splash_title h2 {
   font: 1.5rem/2rem "Vollkorn", sans-serif;
-  padding: 1rem 1rem 3rem 3rem;
+  padding: 1rem 1rem 3rem 5%;
   color: #FFF;
-  width: 45rem; }
+  width: 32rem;
+  font-weight: lighter; }
 
 .body_light {
   background-color: rgba(255, 255, 255, 0.8);
@@ -228,19 +235,23 @@ footer {
   text-align: center;
   margin-top: 1rem; }
 
+.navbar_footer {
+  text-align: center;
+  padding-top: 1rem; }
+
 .article_post {
   color: #204B58;
   padding: 2rem; }
   .article_post h1 {
     font-size: 2.1rem;
     line-height: 2.4rem;
-    padding-bottom: 1rem; }
+    padding-bottom: 1rem;
+    margin-left: 5%; }
   .article_post p {
     font-size: 1.2rem;
     line-height: 1.5rem; }
-
-.article_post button {
-  margin-left: 5%; }
+  .article_post button {
+    margin-left: 5%; }
 
 section .article_extra {
   margin: 0 auto;
@@ -256,12 +267,6 @@ section .article_post {
   border-radius: 0.1rem;
   width: 100%;
   height: 100%; }
-
-.shell_set-size {
-  background-color: white;
-  border-radius: 0.1rem;
-  width: 100%;
-  height: auto; }
 
 .contact_post {
   color: #204B58; }
@@ -285,7 +290,7 @@ section .article_post {
     color: #2DABAB;
     padding-left: 3rem; }
 
-.article_post h2, .recent_work h2 {
+.navbar_footer h2, .article_post h2, .recent_work h2 {
   font-size: 1.5rem;
   color: #F5930B;
   width: 90%;
@@ -405,7 +410,8 @@ button a {
   .splash_title h2 {
     font: 1.5rem/1.8rem "Vollkorn", sans-serif;
     padding: 1rem 1rem 3rem 2rem;
-    max-width: 75%; }
+    max-width: 95%;
+    line-height: 1.5rem; }
 
   .nav_logo {
     font-size: 1.7rem; }
@@ -414,7 +420,8 @@ button a {
     margin: 0 auto;
     padding: 5rem 1rem 1rem; }
     .recent_work h1 {
-      font-size: 1.7rem; }
+      font-size: 1.7rem;
+      line-height: 1.7rem; }
     .recent_work h2 {
       font-size: 1.2rem;
       padding-bottom: .5rem; }
@@ -503,6 +510,9 @@ button a {
     color: #2DABAB;
     padding-left: 1.5rem; }
 
+  .shell {
+    margin-bottom: 1rem; }
+
   footer p {
     font-size: .8rem;
     padding-top: 1rem; }
@@ -515,6 +525,9 @@ button a {
 
   .large {
     font-size: 1.4rem; }
+
+  footer .large {
+    font-size: 2rem; }
 
   .col {
     margin: 2% 0 4% 0; }

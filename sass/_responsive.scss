@@ -73,7 +73,8 @@
     h2 {
       font: 1.5rem/1.8rem $font-base, sans-serif;
       padding: 1rem 1rem 3rem 2rem;
-      max-width: 75%;
+      max-width: 95%;
+      line-height: 1.5rem;
     }
   }
   .nav_logo {
@@ -84,6 +85,7 @@
     padding: 5rem 1rem 1rem;
     h1 {
       font-size: 1.7rem;
+      line-height: 1.7rem;
     }
     h2 {
       font-size: 1.2rem;
@@ -117,7 +119,7 @@
     margin: 1% 0 3.3% 1.6%;
   }
   /*  ----GRID OF FOUR INTO GRID OF TWO----  */
-  
+
   .span_1_of_2 {
     width: 49%;
     margin: 1% 0 1% 2%;
@@ -196,6 +198,9 @@
       padding-left: 1.5rem;
     }
   }
+  .shell {
+    margin-bottom: 1rem;
+  }
   footer p {
     font-size: .8rem;
     padding-top: 1rem;
@@ -210,11 +215,14 @@
   .large {
     font-size: 1.4rem;
   }
+  footer .large {
+    font-size: 2rem;
+  }
   .col {
     margin: 2% 0 4% 0;
   }
   /*  ----GRID OF TWO----  */
-  
+
   .span_2_of_2 {
     width: 100%;
   }
@@ -222,7 +230,7 @@
     width: 100%;
   }
   /*  ----GRID OF THREE----  */
-  
+
   .span_3_of_3 {
     width: 100%;
   }
@@ -233,7 +241,7 @@
     width: 100%;
   }
   /*  ----GRID OF FOUR----  */
-  
+
   .span_4_of_4 {
     width: 100%;
   }

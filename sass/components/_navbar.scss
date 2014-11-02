@@ -45,3 +45,8 @@
   text-align: center;
   margin-top: 1rem;
 }
+.navbar_footer {
+  text-align: center;
+  padding-top: 1rem;
+  @extend %orange-titles;
+}
