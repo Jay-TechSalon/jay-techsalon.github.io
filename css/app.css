@@ -172,7 +172,7 @@ footer {
   background-position: center center; }
 
 .splash_container {
-  height: 29rem; }
+  height: 30rem; }
 
 .splash_title h1 {
   font: 2.5rem/2rem "Unica One", sans-serif;
@@ -202,6 +202,7 @@ footer {
   background-color: rgba(255, 255, 255, 0.97); }
 
 #navbar.navbar_absolute {
+  display: none;
   position: absolute;
   top: 460px;
   padding-top: 1rem;
@@ -466,13 +467,12 @@ button a {
     max-width: 80%; }
 
   .splash_bkg {
-    height: auto;
-    background-attachment: fixed;
+    background: url(../img/triangles-long.png);
     background-position: left; }
 
   .display_none {
     display: inline;
-    margin-left: 40%; }
+    margin-left: 45%; }
 
   .text_shadow {
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); }
