@@ -79,6 +79,7 @@
   }
   .nav_logo {
     font-size: 1.7rem;
+    letter-spacing: -2px;
   }
   .recent_work {
     margin: 0 auto;
@@ -132,7 +133,7 @@
 @media only screen and (max-width: 480px) {
   .splash_title {
     h1 {
-      font: 5rem/2.5rem $font-titles, sans-serif;
+      font: 4rem/3rem $font-titles, sans-serif;
       padding: 7rem 1.5rem 0 1.5rem;
     }
     h2 {
@@ -142,8 +143,8 @@
     }
   }
   .splash_bkg {
-    background: url(../img/triangles-long.png);
-    background-position: left;
+    background: url(../img/triangles-long.jpg) repeat-y;
+    background-position: cover;
   }
   .display_none {
     display: inline;
@@ -213,8 +214,13 @@
     }
   }
   .nav_logo {
-    font-size: 1.1rem;
-    margin-top: -1.4rem;
+    font-size: 1.2rem;
+    letter-spacing: -2px;
+    margin: -1.4rem 0 0 0;
+  }
+  .navbar_inline li {
+  margin-left: .1rem;
+  padding: .1rem 0;
   }
   .large {
     font-size: 1.4rem;

@@ -165,7 +165,7 @@ footer {
     padding-top: 1rem; }
 
 .splash_bkg {
-  background: url(../img/triangles.png) no-repeat;
+  background: url(../img/triangles.jpg) no-repeat;
   background-size: cover;
   height: auto;
   background-attachment: fixed;
@@ -221,11 +221,11 @@ footer {
 .nav_logo {
   text-align: left;
   font-size: 2rem;
+  letter-spacing: -2px;
   color: #F5930B;
   font-family: "Unica One";
   margin: -2rem 0 0 .25rem;
-  text-transform: uppercase;
-  letter-spacing: -1px; }
+  text-transform: uppercase; }
 
 .social_nav {
   text-align: center;
@@ -410,7 +410,8 @@ button a {
     line-height: 1.5rem; }
 
   .nav_logo {
-    font-size: 1.7rem; }
+    font-size: 1.7rem;
+    letter-spacing: -2px; }
 
   .recent_work {
     margin: 0 auto;
@@ -454,7 +455,7 @@ button a {
     margin-left: 0; } }
 @media only screen and (max-width: 480px) {
   .splash_title h1 {
-    font: 5rem/2.5rem "Unica One", sans-serif;
+    font: 4rem/3rem "Unica One", sans-serif;
     padding: 7rem 1.5rem 0 1.5rem; }
   .splash_title h2 {
     font: 1.1rem/1.4rem "Vollkorn", sans-serif;
@@ -462,8 +463,8 @@ button a {
     max-width: 80%; }
 
   .splash_bkg {
-    background: url(../img/triangles-long.png);
-    background-position: left; }
+    background: url(../img/triangles-long.jpg) repeat-y;
+    background-position: cover; }
 
   .display_none {
     display: inline;
@@ -520,8 +521,13 @@ button a {
       text-decoration: underline; }
 
   .nav_logo {
-    font-size: 1.1rem;
-    margin-top: -1.4rem; }
+    font-size: 1.2rem;
+    letter-spacing: -2px;
+    margin: -1.4rem 0 0 0; }
+
+  .navbar_inline li {
+    margin-left: .1rem;
+    padding: .1rem 0; }
 
   .large {
     font-size: 1.4rem; }
