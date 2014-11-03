@@ -172,16 +172,16 @@ footer {
   background-position: center center; }
 
 .splash_container {
-  height: 30rem; }
+  height: 32rem; }
 
 .splash_title h1 {
-  font: 2.5rem/2rem "Unica One", sans-serif;
-  padding: 10rem 1rem 0 5%;
+  font: 10rem/7.5rem "Unica One", sans-serif;
+  padding: 7.5rem 1rem 0 5%;
   color: #FFF;
   font-weight: bolder; }
 .splash_title h2 {
   font: 1.5rem/2rem "Vollkorn", sans-serif;
-  padding: 1rem 1rem 3rem 5%;
+  padding: 1rem 1rem 3rem 6%;
   color: #FFF;
   width: 32rem;
   font-weight: lighter; }
@@ -192,7 +192,7 @@ footer {
 
 #navbar.navbar_fixed {
   position: fixed;
-  top: 0;
+  top: 0px;
   z-index: 10;
   padding-top: 1rem;
   width: 100%;
@@ -204,12 +204,7 @@ footer {
 #navbar.navbar_absolute {
   display: none;
   position: absolute;
-  top: 460px;
-  padding-top: 1rem;
-  width: 100%;
-  height: 3.75rem;
-  background-color: white;
-  background-color: rgba(255, 255, 255, 0.06); }
+  top: 400px; }
 
 .navbar_container {
   margin: .85rem; }
@@ -228,9 +223,9 @@ footer {
   font-size: 2rem;
   color: #F5930B;
   font-family: "Unica One";
-  margin: -2rem 0 0 0;
+  margin: -2rem 0 0 .25rem;
   text-transform: uppercase;
-  letter-spacing: -2px; }
+  letter-spacing: -1px; }
 
 .social_nav {
   text-align: center;
@@ -309,7 +304,7 @@ section .article_post {
 
 .recent_work {
   margin: 0 auto;
-  padding: 8rem 1rem 2rem; }
+  padding: 3rem 1rem 2rem; }
   .recent_work h1 {
     font-size: 2rem;
     color: #204B58; }
@@ -459,7 +454,7 @@ button a {
     margin-left: 0; } }
 @media only screen and (max-width: 480px) {
   .splash_title h1 {
-    font: 1.8rem/2rem "Unica One", sans-serif;
+    font: 5rem/2.5rem "Unica One", sans-serif;
     padding: 7rem 1.5rem 0 1.5rem; }
   .splash_title h2 {
     font: 1.1rem/1.4rem "Vollkorn", sans-serif;
