@@ -157,12 +157,19 @@
       max-width: 80%;
     }
   }
+  .splash_bkg {
+    background: url(../img/triangles-long.jpg) no-repeat;
+    background-size: cover;
+    height: auto;
+    background-attachment: fixed;
+    background-position: center center;
+  }
   .display_none {
     display: inline;
     margin-left: 45%;
   }
   .text_shadow {
-  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
   }
   .recent_work {
     margin: 0 auto;

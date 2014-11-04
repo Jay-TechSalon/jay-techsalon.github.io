@@ -472,6 +472,13 @@ button a {
     padding: 1rem 1.5rem 3rem 1.5rem;
     max-width: 80%; }
 
+  .splash_bkg {
+    background: url(../img/triangles-long.jpg) no-repeat;
+    background-size: cover;
+    height: auto;
+    background-attachment: fixed;
+    background-position: center center; }
+
   .display_none {
     display: inline;
     margin-left: 45%; }
