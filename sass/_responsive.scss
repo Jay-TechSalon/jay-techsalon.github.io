@@ -67,14 +67,14 @@
 @media only screen and (max-width: 768px) {
   .splash_title {
     h1 {
-      font: 2rem/2rem $font-titles, sans-serif;
-      padding: 10rem 1rem 0 2rem;
+      font: 8.5rem/6.5rem $font-titles, sans-serif;
+      padding: 10rem 1.5rem 0 2.5rem;
+      font-weight: bolder;
     }
     h2 {
-      font: 1.5rem/1.8rem $font-base, sans-serif;
-      padding: 1rem 1rem 3rem 2rem;
-      max-width: 95%;
-      line-height: 1.5rem;
+      font: 1.1rem/1.4rem $font-base, sans-serif;
+      padding: 1rem 1.5rem 3rem 2.5rem;
+      max-width: 60%;
     }
   }
   .nav_logo {
@@ -130,11 +130,12 @@
     margin-left: 0;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
   .splash_title {
     h1 {
-      font: 4rem/3rem $font-titles, sans-serif;
+      font: 6.5rem/4.8rem $font-titles, sans-serif;
       padding: 7rem 1.5rem 0 1.5rem;
+      font-weight: bolder;
     }
     h2 {
       font: 1.1rem/1.4rem $font-base, sans-serif;
@@ -142,16 +143,26 @@
       max-width: 80%;
     }
   }
-  .splash_bkg {
-    background: url(../img/triangles-long.jpg) repeat-y;
-    background-position: cover;
+}
+@media only screen and (max-width: 480px) {
+  .splash_title {
+    h1 {
+      font: 4rem/3rem $font-titles, sans-serif;
+      padding: 7rem 1.5rem 0 1.5rem;
+      font-weight: bolder;
+    }
+    h2 {
+      font: 1.1rem/1.4rem $font-base, sans-serif;
+      padding: 1rem 1.5rem 3rem 1.5rem;
+      max-width: 80%;
+    }
   }
   .display_none {
     display: inline;
     margin-left: 45%;
   }
   .text_shadow {
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
   }
   .recent_work {
     margin: 0 auto;
@@ -219,8 +230,8 @@
     margin: -1.4rem 0 0 0;
   }
   .navbar_inline li {
-  margin-left: .1rem;
-  padding: .1rem 0;
+    margin-left: .1rem;
+    padding: .1rem 0;
   }
   .large {
     font-size: 1.4rem;

@@ -401,13 +401,13 @@ button a {
 /*  ----GO FULL WIDTH AT LESS THAN 480 PIXELS---- */
 @media only screen and (max-width: 768px) {
   .splash_title h1 {
-    font: 2rem/2rem "Unica One", sans-serif;
-    padding: 10rem 1rem 0 2rem; }
+    font: 8.5rem/6.5rem "Unica One", sans-serif;
+    padding: 10rem 1.5rem 0 2.5rem;
+    font-weight: bolder; }
   .splash_title h2 {
-    font: 1.5rem/1.8rem "Vollkorn", sans-serif;
-    padding: 1rem 1rem 3rem 2rem;
-    max-width: 95%;
-    line-height: 1.5rem; }
+    font: 1.1rem/1.4rem "Vollkorn", sans-serif;
+    padding: 1rem 1.5rem 3rem 2.5rem;
+    max-width: 60%; }
 
   .nav_logo {
     font-size: 1.7rem;
@@ -453,25 +453,31 @@ button a {
   .span_1_of_2:nth-child(2n+1) {
     clear: both;
     margin-left: 0; } }
+@media only screen and (max-width: 767px) {
+  .splash_title h1 {
+    font: 6.5rem/4.8rem "Unica One", sans-serif;
+    padding: 7rem 1.5rem 0 1.5rem;
+    font-weight: bolder; }
+  .splash_title h2 {
+    font: 1.1rem/1.4rem "Vollkorn", sans-serif;
+    padding: 1rem 1.5rem 3rem 1.5rem;
+    max-width: 80%; } }
 @media only screen and (max-width: 480px) {
   .splash_title h1 {
     font: 4rem/3rem "Unica One", sans-serif;
-    padding: 7rem 1.5rem 0 1.5rem; }
+    padding: 7rem 1.5rem 0 1.5rem;
+    font-weight: bolder; }
   .splash_title h2 {
     font: 1.1rem/1.4rem "Vollkorn", sans-serif;
     padding: 1rem 1.5rem 3rem 1.5rem;
     max-width: 80%; }
-
-  .splash_bkg {
-    background: url(../img/triangles-long.jpg) repeat-y;
-    background-position: cover; }
 
   .display_none {
     display: inline;
     margin-left: 45%; }
 
   .text_shadow {
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); }
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); }
 
   .recent_work {
     margin: 0 auto;
