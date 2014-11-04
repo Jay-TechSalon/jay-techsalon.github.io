@@ -474,7 +474,6 @@ button a {
 
   .splash_bkg {
     background: url(../img/triangles-long.jpg);
-    width: 100%;
     height: auto;
     background-attachment: fixed;
     background-position: center center; }
